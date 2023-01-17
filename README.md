@@ -17,10 +17,17 @@ PORT=3001
 ```
 
 ### 4. Загрузка данных в MongoDB
+В файле папке server в файле index.js раскоментируйте 
 ```javascript 
-    // User.insertMany(users);
-    // Post.insertMany(posts);
+// User.insertMany(users);
+// Post.insertMany(posts);
 ```
+после в теминале напишите 
+```bash
+npm start
+```
+закоментируйте обратно
+
 ### 5. Запуск
 Пройдите в папки server и client. В терминале напишите
 ```bash
