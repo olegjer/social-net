@@ -17,7 +17,7 @@ PORT=3001
 ```
 
 ### 4. Загрузка данных в MongoDB
-В файле папке server в файле index.js раскоментируйте 
+В папке server в файле index.js раскоментируйте 
 ```javascript 
 // User.insertMany(users);
 // Post.insertMany(posts);
